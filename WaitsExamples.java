@@ -36,7 +36,7 @@ public class WaitsExamples {
 		WebDriverWait wait = new WebDriverWait(Driver, Duration.ofSeconds(30));
 		
 		wait.until(ExpectedConditions.visibilityOf(Driver.findElement(By.xpath("//span[@class=\"ui-button-icon-left ui-icon ui-c pi pi-th-large\"]"))));
-		commtted the code....
+		
 		
 		
 	}
